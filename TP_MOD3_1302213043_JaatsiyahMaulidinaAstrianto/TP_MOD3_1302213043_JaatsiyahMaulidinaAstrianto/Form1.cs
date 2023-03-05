@@ -16,5 +16,23 @@ namespace TP_MOD3_1302213043_JaatsiyahMaulidinaAstrianto
         {
             InitializeComponent();
         }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String userInput = textBox1.Text;
+            string userOutput = "Halo " + userInput;
+            label2.Text = userOutput;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
